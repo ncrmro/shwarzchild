@@ -1,5 +1,5 @@
 import * as React from "react";
-//import Navbar from './components/Navbar';
+import Navbar from "./components/Navbar/index";
 // import {
 //   NavLink,
 //   Link,
@@ -12,9 +12,7 @@ import * as React from "react";
 class App extends React.Component<any, any> {
     render() {
         return <React.Fragment>
-            <div>Hello World</div>
-
-            <div>World</div>
+            <Navbar />
         </React.Fragment>;
     }
 }
