@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": false,
+    "baseUrl": "./",
+    "paths": {
+      "config": [
+        "config"
+      ],
+      "screens": [
+        "screens"
+      ]
+    }
+  },
+  "exclude": [
+    "tmp",
+    "dist",
+    "node_modules"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false
+}
